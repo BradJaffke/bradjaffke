@@ -32,7 +32,7 @@ import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
 
-export default function Components(props) {
+export default function Homepage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -52,10 +52,10 @@ export default function Components(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
-              <div className={classes.brand}>
+              <div className={classes.brand} style={{float: "right"}}>
                 <h1 className={classes.title}>Brad Jaffke</h1>
                 <h3 className={classes.subtitle}>
-                  Software Engineer.  Outdoorsman.  Wilderness EMT.  Dad.  Husband.
+                  Software Engineer.  Outdoorsman.  SAR team member.  Wilderness EMT.  Dad.  Husband.
                 </h3>
               </div>
             </GridItem>
@@ -63,28 +63,28 @@ export default function Components(props) {
         </div>
       </Parallax>
 
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
-            <Button color="primary" size="lg" simple>
-              View Login Page
-            </Button>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
-      </div>
-      <Footer />
+      {/*<div className={classNames(classes.main, classes.mainRaised)}>*/}
+      {/*  <SectionBasics />*/}
+      {/*  <SectionNavbars />*/}
+      {/*  <SectionTabs />*/}
+      {/*  <SectionPills />*/}
+      {/*  <SectionNotifications />*/}
+      {/*  <SectionTypography />*/}
+      {/*  <SectionJavascript />*/}
+      {/*  <SectionCarousel />*/}
+      {/*  <SectionCompletedExamples />*/}
+      {/*  <SectionLogin />*/}
+      {/*  <GridItem md={12} className={classes.textCenter}>*/}
+      {/*    <Link to={"/login-page"} className={classes.link}>*/}
+      {/*      <Button color="primary" size="lg" simple>*/}
+      {/*        View Login Page*/}
+      {/*      </Button>*/}
+      {/*    </Link>*/}
+      {/*  </GridItem>*/}
+      {/*  <SectionExamples />*/}
+      {/*  <SectionDownload />*/}
+      {/*</div>*/}
+      {/*<Footer />*/}
     </div>
   );
 }
