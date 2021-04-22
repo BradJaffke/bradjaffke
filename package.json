@@ -1,9 +1,9 @@
 {
-  "homepage":  "https://BradJaffke.github.io",
   "name": "BradJaffke",
   "version": "0.1.0",
   "description": "Personal portfolio and blog",
   "private": true,
+  "homepage":  "https://BradJaffke.github.io",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.10.0",
