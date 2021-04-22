@@ -168,7 +168,7 @@ material-kit-react
     │       └── Warning.js
     └── views
         ├── Components
-        │   ├── Components.js
+        │   ├── HomePage.js
         │   └── Sections
         │       ├── SectionBasics.js
         │       ├── SectionCarousel.js

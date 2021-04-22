@@ -84,7 +84,7 @@ export default function Homepage(props) {
       {/*  <SectionExamples />*/}
       {/*  <SectionDownload />*/}
       {/*</div>*/}
-      {/*<Footer />*/}
+      <Footer />
     </div>
   );
 }
