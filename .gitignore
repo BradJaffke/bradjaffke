@@ -1,3 +1,10 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules folder
+node_modules
+
+bradjaffke.iml
 build
 node_modules
 node_modules
