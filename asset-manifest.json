@@ -1,36 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.fedf132f.chunk.css",
-    "main.js": "/static/js/main.dc3529df.chunk.js",
-    "main.js.map": "/static/js/main.dc3529df.chunk.js.map",
+    "main.js": "/static/js/main.ec2eb2be.chunk.js",
+    "main.js.map": "/static/js/main.ec2eb2be.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fc307668.js",
     "runtime-main.js.map": "/static/js/runtime-main.fc307668.js.map",
-    "static/js/2.39bf81b3.chunk.js": "/static/js/2.39bf81b3.chunk.js",
-    "static/js/2.39bf81b3.chunk.js.map": "/static/js/2.39bf81b3.chunk.js.map",
+    "static/js/2.a34438b9.chunk.js": "/static/js/2.a34438b9.chunk.js",
+    "static/js/2.a34438b9.chunk.js.map": "/static/js/2.a34438b9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1aa9156f20f2cdd2bf65f491804c649a.js": "/precache-manifest.1aa9156f20f2cdd2bf65f491804c649a.js",
+    "precache-manifest.ce60ade0d7e191fccb4aafa3c65e9a23.js": "/precache-manifest.ce60ade0d7e191fccb4aafa3c65e9a23.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fedf132f.chunk.css.map": "/static/css/main.fedf132f.chunk.css.map",
-    "static/js/2.39bf81b3.chunk.js.LICENSE.txt": "/static/js/2.39bf81b3.chunk.js.LICENSE.txt",
+    "static/js/2.a34438b9.chunk.js.LICENSE.txt": "/static/js/2.a34438b9.chunk.js.LICENSE.txt",
+    "static/media/EMRU.jpg": "/static/media/EMRU.3091d0b2.jpg",
+    "static/media/Family.jpg": "/static/media/Family.ac1f834e.jpg",
+    "static/media/HRT.jpg": "/static/media/HRT.30789354.jpg",
     "static/media/PersonalSiteHeader.JPG": "/static/media/PersonalSiteHeader.22f969cd.JPG",
     "static/media/avatar.jpg": "/static/media/avatar.f1d71f77.jpg",
     "static/media/bg.jpg": "/static/media/bg.e5241971.jpg",
-    "static/media/bg2.jpg": "/static/media/bg2.84378183.jpg",
-    "static/media/bg3.jpg": "/static/media/bg3.e76de24b.jpg",
-    "static/media/bg7.jpg": "/static/media/bg7.b08234a2.jpg",
-    "static/media/christian.jpg": "/static/media/christian.56633ed3.jpg",
-    "static/media/kendall.jpg": "/static/media/kendall.e0508cc9.jpg",
-    "static/media/landing-bg.jpg": "/static/media/landing-bg.df8fd3ef.jpg",
     "static/media/landing.jpg": "/static/media/landing.08e18cb9.jpg",
-    "static/media/profile-bg.jpg": "/static/media/profile-bg.baf6b40a.jpg",
     "static/media/profile.jpg": "/static/media/profile.090a5aab.jpg",
-    "static/media/sign.jpg": "/static/media/sign.cf8b686b.jpg",
-    "static/media/studio-1.jpg": "/static/media/studio-1.ae0150c0.jpg"
+    "static/media/sign.jpg": "/static/media/sign.cf8b686b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fc307668.js",
-    "static/js/2.39bf81b3.chunk.js",
+    "static/js/2.a34438b9.chunk.js",
     "static/css/main.fedf132f.chunk.css",
-    "static/js/main.dc3529df.chunk.js"
+    "static/js/main.ec2eb2be.chunk.js"
   ]
 }
