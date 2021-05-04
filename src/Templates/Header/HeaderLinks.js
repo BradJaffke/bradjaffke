@@ -1,9 +1,5 @@
 /*eslint-disable*/
 import React from "react";
-import DeleteIcon from "@material-ui/icons/Delete";
-import IconButton from "@material-ui/core/IconButton";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -15,7 +11,6 @@ import Tooltip from "@material-ui/core/Tooltip";
 import {Book, Reorder} from "@material-ui/icons";
 
 // core components
-import CustomDropdown from "Atoms/CustomDropdown/CustomDropdown.js";
 import Button from "Atoms/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
@@ -36,33 +31,11 @@ export default function HeaderLinks(props) {
           >
               <Reorder className={classes.icons} /> Blog
           </Button>
-        {/*<CustomDropdown*/}
-        {/*  noLiPadding*/}
-        {/*  buttonText="Blog"*/}
-        {/*  buttonProps={{*/}
-        {/*    className: classes.navLink,*/}
-        {/*    color: "transparent"*/}
-        {/*  }}*/}
-        {/*  buttonIcon={Book}*/}
-        {/*  dropdownList={[*/}
-        {/*    <Link to="/" className={classes.dropdownLink}>*/}
-        {/*      All components*/}
-        {/*    </Link>,*/}
-        {/*    <a*/}
-        {/*      href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"*/}
-        {/*      target="_blank"*/}
-        {/*      className={classes.dropdownLink}*/}
-        {/*    >*/}
-        {/*      Documentation*/}
-        {/*    </a>*/}
-        {/*  ]}*/}
-        {/*/>*/}
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="www.google.com"
+          href="/Resume"
           color="transparent"
-          target="_blank"
           variant="outlined"
           className={classes.navLink}
         >
