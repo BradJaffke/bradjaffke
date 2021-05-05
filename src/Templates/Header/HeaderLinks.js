@@ -12,6 +12,7 @@ import {Book, Reorder} from "@material-ui/icons";
 
 // core components
 import Button from "Atoms/CustomButtons/Button.js";
+import { Link } from "react-router-dom";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
@@ -33,14 +34,15 @@ export default function HeaderLinks(props) {
           </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/Resume"
-          color="transparent"
-          variant="outlined"
-          className={classes.navLink}
-        >
-          <Book className={classes.icons} /> Resume
-        </Button>
+          <Link to="/Resume">
+              <Button
+              color="transparent"
+              variant="outlined"
+              className={classes.navLink}
+              >
+              <Book className={classes.icons} /> Resume
+            </Button>
+          </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
