@@ -1,8 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -11,22 +10,10 @@ import Header from "Templates/Header/Header.js";
 import Footer from "Templates/Footer.js";
 import GridContainer from "Atoms/Grid/GridContainer.js";
 import GridItem from "Atoms/Grid/GridItem.js";
-import Button from "Atoms/CustomButtons/Button.js";
 import Parallax from "Molecules/Parallax/Parallax.js";
 // sections for this page
 import HeaderLinks from "Templates/Header/HeaderLinks.js";
 import Profile from "../Templates/Profile.js";
-import SectionNavbars from "../Material_UI_Kit_Samples/Components/Sections/SectionNavbars.js";
-import SectionTabs from "../Material_UI_Kit_Samples/Components/Sections/SectionTabs.js";
-import SectionPills from "../Material_UI_Kit_Samples/Components/Sections/SectionPills.js";
-import SectionNotifications from "../Material_UI_Kit_Samples/Components/Sections/SectionNotifications.js";
-import SectionTypography from "../Material_UI_Kit_Samples/Components/Sections/SectionTypography.js";
-import SectionJavascript from "../Material_UI_Kit_Samples/Components/Sections/SectionJavascript.js";
-import SectionCarousel from "../Organisms/BJCarousel.js";
-import SectionCompletedExamples from "../Material_UI_Kit_Samples/Components/Sections/SectionCompletedExamples.js";
-import SectionLogin from "../Material_UI_Kit_Samples/Components/Sections/SectionLogin.js";
-import SectionExamples from "../Material_UI_Kit_Samples/Components/Sections/SectionExamples.js";
-import SectionDownload from "../Material_UI_Kit_Samples/Components/Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
