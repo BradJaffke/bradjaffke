@@ -23,7 +23,8 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
           <Button
-              href="/blog"
+              href="https://bjaffke.medium.com/"
+              target="_blank"
               color="transparent"
               variant="outlined"
               className={classes.navLink}
